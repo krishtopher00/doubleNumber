@@ -1,5 +1,5 @@
 error = True
-while error == True:
+while error:
     number = raw_input("What number should I double? ")
     
     try:
@@ -11,5 +11,5 @@ while error == True:
     except ValueError:
         print("Sorry thats not a number. Try again")    
 
-
+# Finally converted to float successfully
 print("Double that is {}.".format(number*2))
